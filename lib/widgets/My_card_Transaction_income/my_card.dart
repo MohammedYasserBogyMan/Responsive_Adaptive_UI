@@ -12,8 +12,10 @@ class MyCard extends StatelessWidget {
       aspectRatio: 420 / 215,
       child: Container(
         decoration: ShapeDecoration(
-          image:
-              DecorationImage(image: AssetImage(Assets.imagesCardBackground)),
+          image: DecorationImage(
+            image: AssetImage(Assets.imagesCardBackground),
+            fit: BoxFit.fill,
+          ),
           color: Color(0xff4EB7F2),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
