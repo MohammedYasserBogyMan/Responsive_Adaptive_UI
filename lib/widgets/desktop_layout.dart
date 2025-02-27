@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:respinsive_dash_board/widgets/0/quick_invoice.dart';
-import 'package:respinsive_dash_board/widgets/all_expensess.dart';
+import 'package:respinsive_dash_board/widgets/0/all_expensess_quicl_invoice_section.dart';
 
 import 'custom_drawer.dart';
 
@@ -19,12 +18,7 @@ class DesktopLayout extends StatelessWidget {
         ),
         Expanded(
           flex: 2,
-          child: Column(
-            children: [
-              AllExpensess(),
-              QuickInvoice(),
-            ],
-          ),
+          child: AllExpensessAndQuickInvoiceSection(),
         ),
       ],
     );
