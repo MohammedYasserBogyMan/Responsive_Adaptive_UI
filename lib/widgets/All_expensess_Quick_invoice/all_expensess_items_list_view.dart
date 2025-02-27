@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:respinsive_dash_board/models/all_expensess_item_model.dart';
 import 'package:respinsive_dash_board/utils/app_images.dart';
-import 'package:respinsive_dash_board/widgets/all_expensess_item.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/all_expensess_item.dart';
 
 class AllExpensessItemsListView extends StatefulWidget {
   const AllExpensessItemsListView({super.key});

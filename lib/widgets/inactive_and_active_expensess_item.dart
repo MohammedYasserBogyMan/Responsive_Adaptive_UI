@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:respinsive_dash_board/models/all_expensess_item_model.dart';
 import 'package:respinsive_dash_board/utils/app_styles.dart';
-import 'package:respinsive_dash_board/widgets/all_expensess_item_header.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/all_expensess_item_header.dart';
 
 class InActiveAllExpensessItem extends StatelessWidget {
   const InActiveAllExpensessItem({

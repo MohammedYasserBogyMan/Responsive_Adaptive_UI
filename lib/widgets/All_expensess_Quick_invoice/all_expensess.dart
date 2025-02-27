@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:respinsive_dash_board/widgets/all_expensess_header.dart';
-import 'package:respinsive_dash_board/widgets/all_expensess_items_list_view.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/all_expensess_header.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/all_expensess_items_list_view.dart';
 import 'package:respinsive_dash_board/widgets/custom_container.dart';
 
 class AllExpensess extends StatelessWidget {
