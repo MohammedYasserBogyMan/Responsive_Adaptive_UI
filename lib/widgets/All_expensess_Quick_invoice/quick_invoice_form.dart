@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:respinsive_dash_board/widgets/0/custom_button.dart';
-import 'package:respinsive_dash_board/widgets/0/title_text_field.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/custom_button.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/title_text_field.dart';
 
 class QuickInvoiceForm extends StatelessWidget {
   const QuickInvoiceForm({super.key});

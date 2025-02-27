@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:respinsive_dash_board/widgets/0/last_transaction.dart';
-import 'package:respinsive_dash_board/widgets/0/quick_invoice_form.dart';
-import 'package:respinsive_dash_board/widgets/0/quick_invoice_header.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/last_transaction.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/quick_invoice_form.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/quick_invoice_header.dart';
 import 'package:respinsive_dash_board/widgets/custom_container.dart';
 
 class QuickInvoice extends StatelessWidget {

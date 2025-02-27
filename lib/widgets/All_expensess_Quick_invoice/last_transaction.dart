@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:respinsive_dash_board/utils/app_styles.dart';
-import 'package:respinsive_dash_board/widgets/0/last_transaction_list_view.dart';
+import 'package:respinsive_dash_board/widgets/All_expensess_Quick_invoice/last_transaction_list_view.dart';
 
 class LastTransaction extends StatelessWidget {
   const LastTransaction({super.key});
