@@ -8,12 +8,12 @@ class IncomeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           'Income',
           style: AppStyles.styleSemiBold20,
         ),
-        Spacer(),
         RangeOptions()
       ],
     );

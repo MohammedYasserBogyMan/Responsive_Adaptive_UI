@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:respinsive_dash_board/utils/app_styles.dart';
 import 'package:respinsive_dash_board/widgets/custom_container.dart';
+import 'package:respinsive_dash_board/widgets/income_section/income_chart.dart';
+import 'package:respinsive_dash_board/widgets/income_section/income_details.dart';
 import 'package:respinsive_dash_board/widgets/income_section/income_header.dart';
-import 'package:respinsive_dash_board/widgets/range_options.dart';
 
 class IncomeSection extends StatelessWidget {
   const IncomeSection({super.key});
@@ -13,6 +13,18 @@ class IncomeSection extends StatelessWidget {
         child: Column(
       children: [
         IncomeHeader(),
+        Expanded(
+          child: Row(
+            children: [
+              Expanded(
+                child: IncomeChart(),
+              ),
+              Expanded(
+                child: IncomeDetails(),
+              )
+            ],
+          ),
+        )
       ],
     ));
   }
